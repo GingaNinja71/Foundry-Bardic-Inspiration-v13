@@ -1,6 +1,6 @@
 # Bardic Inspiration 2024 Inspired Condition
 
-This module automates the 2024 Bardic Inspiration flow for Foundry VTT v13 and the official `dnd5e` system.
+This module automates the 2024 Bardic Inspiration flow for Foundry VTT v14 and the official `dnd5e` system.
 
 ## What It Does
 
@@ -36,7 +36,7 @@ This module automates the 2024 Bardic Inspiration flow for Foundry VTT v13 and t
 4. Paste this manifest URL:
 
 ```text
-https://raw.githubusercontent.com/jake2english-beep/Foundry-Bardic-Inspiration-v13/main/bi-2024-inspired-condition/module.json
+https://raw.githubusercontent.com/GingaNinja71/Foundry-Bardic-Inspiration-v13/main/bi-2024-inspired-condition/module.json
 ```
 
 5. Install the module.
@@ -47,7 +47,7 @@ https://raw.githubusercontent.com/jake2english-beep/Foundry-Bardic-Inspiration-v
 1. Download the latest release zip:
 
 ```text
-https://github.com/jake2english-beep/Foundry-Bardic-Inspiration-v13/releases/latest/download/bi-2024-inspired-condition.zip
+https://github.com/GingaNinja71/Foundry-Bardic-Inspiration-v13/releases/latest/download/bi-2024-inspired-condition.zip
 ```
 
 2. Extract it into Foundry's `Data/modules` directory.
@@ -58,9 +58,9 @@ https://github.com/jake2english-beep/Foundry-Bardic-Inspiration-v13/releases/lat
 
 ## GitHub
 
-- Repository: `https://github.com/jake2english-beep/Foundry-Bardic-Inspiration-v13`
-- Manifest: `https://raw.githubusercontent.com/jake2english-beep/Foundry-Bardic-Inspiration-v13/main/bi-2024-inspired-condition/module.json`
-- Latest Download: `https://github.com/jake2english-beep/Foundry-Bardic-Inspiration-v13/releases/latest/download/bi-2024-inspired-condition.zip`
+- Repository: `https://github.com/GingaNinja71/Foundry-Bardic-Inspiration-v13`
+- Manifest: `https://raw.githubusercontent.com/GingaNinja71/Foundry-Bardic-Inspiration-v13/main/bi-2024-inspired-condition/module.json`
+- Latest Download: `https://github.com/GingaNinja71/Foundry-Bardic-Inspiration-v13/releases/latest/download/bi-2024-inspired-condition.zip`
 
 ## Settings
 
@@ -113,7 +113,7 @@ await game.modules.get("bi-2024-inspired-condition").api.applyBardicInspiration(
 
 ## Compatibility Notes
 
-- Built for Foundry VTT v13.
-- Built for the official `dnd5e` system.
+- Built for Foundry VTT v14.
+- Built for the official `dnd5e` system version 5.3.0 or newer.
 - Does not require Midi-QOL, DAE, or Times Up.
 - Should coexist with Midi-QOL, DAE, and Times Up without depending on them.
